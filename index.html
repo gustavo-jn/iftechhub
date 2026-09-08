@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/swot.css">
   <link rel="stylesheet" href="css/membros.css">
   <link rel="stylesheet" href="css/demandantes.css">
+  <link rel="stylesheet" href="css/participante.css">
 
 
   <link rel="shortcut icon" href="img/fivicon/fivicon.png" type="image/x-icon">
@@ -41,6 +42,9 @@
           <li class="nav-item"><a class="nav-link" href="#demandantes">Demandantes</a></li>
           <li class="nav-item"><a class="nav-link" href="#diferenciais">Diferenciais</a></li>
           <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-outline-light btn-sm fw-bold" href="area-participante.html">Área do Participante</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -247,28 +251,24 @@
 <!-- Demandantes -->
 <section id="demandantes" class="py-5">
   <div class="container" style="max-width: 1100px;">
-    <h2 class="text-center mb-4">Nosso Demandante</h2>
-
-    <div class="demandante_card">
-      <div class="demandante_video">
-        <iframe
-          src="https://www.youtube.com/embed/fAxshQX1a_c"
-          title="Vídeo do projeto IFTechHub"
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="demandante_info">
-        <h4 class="titulo_demandante">Apresentação do Demandante</h4>
-        <p class="texto_demandante">
-          Conheça o demandante deste projeto, suas necessidades e os principais desafios
-          apresentados à equipe da IFTechHub. O vídeo mostra o contexto da demanda que
-          orientou o desenvolvimento da solução.
-        </p>
-      </div>
+    <h2 class="text-center mb-4">Demandantes</h2>
+    <p class="text-center mb-5 demandantes-intro">
+      Conheça a experiência de quem já confiou na IFTechHub para transformar suas ideias em soluções digitais.
+    </p>
+    <div class="demandantes-wrapper">
+      <a href="demandantes/cliente-1.html" class="demandante-card">
+        <div class="demandante-thumb">
+          <img src="https://img.youtube.com/vi/fAxshQX1a_c/hqdefault.jpg" alt="Depoimento de Pedro">
+          <span class="demandante-play"><i class="fas fa-play"></i></span>
+        </div>
+        <div class="demandante-info">
+          <h3 class="demandante-nome">Depoimento de Pedro</h3>
+          <p class="demandante-texto">
+            Pedro atua há 10 anos com refrigeração e climatização residencial, comercial e industrial, e conta como a parceria com a IFTechHub abre novos mercados para o seu negócio.
+          </p>
+          <span class="demandante-link">Ver entrevista completa <i class="fas fa-arrow-right"></i></span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
